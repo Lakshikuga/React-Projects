@@ -9,8 +9,8 @@ function Ads() {
   // Import result is the URL of your image
   return(
       <><><p></p><><h1>Ad Image Generation</h1><><><img src={img1} alt="Img1" /><img src={img2} alt="Img2" /><img src={img3} alt="Img3" /></><div>
-
-      </div></></></><video src="/videos/video-1.mp4" autoPlay loop muted /><video src={v1} autoPlay='true' /></>
+         <video src={v1} autoPlay='true' />
+      </div></></></></>
 
   );
 }
